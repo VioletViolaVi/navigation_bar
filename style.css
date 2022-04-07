@@ -1,4 +1,6 @@
 /*************************************** custom defaults */
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
+
 * {
   list-style: none;
   margin: 0;
@@ -11,4 +13,5 @@ a {
 
 body {
   cursor: default;
+  font-family: "Nunito Sans", sans-serif;
 }
