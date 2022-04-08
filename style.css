@@ -19,10 +19,31 @@ body {
 }
 
 /*************************************** icons */
-.icons-container {
+.icon-container {
   display: grid;
   grid-template-columns: auto auto auto auto auto;
-  justify-content: space-evenly;
-  margin: 18rem 8rem;
+  justify-content: space-between;
+  margin: 16rem 5rem;
   background-color: #fff;
+  padding: 3rem;
+  border-radius: 1.5rem;
+}
+
+.link-container {
+  position: relative;
+}
+
+.link-container div {
+  text-align: center;
+  font-size: 2rem;
+  transition: 0.6s;
+  color: #000;
+}
+
+.link-container:hover div {
+  transform: translateY(10rem);
+}
+
+.link-container span {
+  font-size: 1.5rem;
 }
