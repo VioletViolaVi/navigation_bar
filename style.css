@@ -16,7 +16,7 @@ a {
 body {
   cursor: default;
   font-family: "Nunito Sans", sans-serif;
-  background-color: #000;
+  background-color: green;
 }
 
 /*************************************** icons */
@@ -46,8 +46,8 @@ body {
   margin: auto -1rem;
 }
 
-.link-container:hover div {
-  transform: translateY(-7rem);
+.link-container.active div {
+  transform: translateY(-4rem);
 }
 
 /*************************************** text */
@@ -57,9 +57,21 @@ body {
   transform: translateY(3rem);
 }
 
-.link-container:hover span {
+.link-container.active span {
   display: inline-block;
   opacity: 1;
   transform: translateY(1.5rem);
   transition: 0.3s;
+}
+
+/*************************************** indicator */
+.icon-indicator {
+  background-color: yellow;
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  top: 13.5rem;
+  left: 7.7rem;
+  border-radius: 3rem;
+  border: green 0.4rem solid;
 }
