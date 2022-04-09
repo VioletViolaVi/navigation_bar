@@ -6,7 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #000;
+  color: #fff;
   cursor: default;
 }
 
@@ -16,7 +16,7 @@ a {
 
 body {
   font-family: "Nunito Sans", sans-serif;
-  background-color: green;
+  background-color: #86af49;
 }
 
 /*************************************** icons */
@@ -25,7 +25,7 @@ body {
   grid-template-columns: auto auto auto auto auto;
   justify-content: space-between;
   margin: 16rem 5rem;
-  background-color: #fff;
+  background-color: #b5e7a0;
   padding: 3rem;
   border-radius: 1.5rem;
 }
@@ -69,14 +69,14 @@ body {
 /*************************************** indicator */
 .icon-indicator {
   cursor: pointer;
-  background-color: yellow;
+  background-color: #86af49;
   width: 5rem;
   height: 5rem;
   position: absolute;
   top: 13.5rem;
   left: 7.7rem;
   border-radius: 3rem;
-  border: green 0.4rem solid;
+  border: #86af49 0.4rem solid;
 }
 
 .icon-indicator::before {
@@ -88,7 +88,7 @@ body {
   top: 2.1rem;
   left: -1.7rem;
   border-top-right-radius: 1rem;
-  box-shadow: 0rem -1rem green;
+  box-shadow: 0rem -1rem #86af49;
 }
 
 .icon-indicator::after {
@@ -100,7 +100,7 @@ body {
   top: 2.1rem;
   right: -1.7rem;
   border-top-left-radius: 1rem;
-  box-shadow: 0rem -1rem green;
+  box-shadow: 0rem -1rem #86af49;
 }
 
 /*************************************** moving indicator */

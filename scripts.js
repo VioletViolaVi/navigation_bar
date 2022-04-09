@@ -53,8 +53,6 @@ $("document").ready(function () {
         .removeClass("move-indicator-2")
         .removeClass("move-indicator-3")
         .removeClass("move-indicator-4");
-    } else {
-      console.log("ERROR!!!!");
     }
   });
 });
