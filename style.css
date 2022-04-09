@@ -7,6 +7,7 @@
   padding: 0;
   box-sizing: border-box;
   color: #000;
+  cursor: default;
 }
 
 a {
@@ -14,7 +15,6 @@ a {
 }
 
 body {
-  cursor: default;
   font-family: "Nunito Sans", sans-serif;
   background-color: green;
 }
@@ -44,6 +44,7 @@ body {
 .link-container div i {
   position: absolute;
   margin: auto -1rem;
+  cursor: pointer;
 }
 
 .link-container.active div {
@@ -52,6 +53,7 @@ body {
 
 /*************************************** text */
 .link-container span {
+  cursor: pointer;
   opacity: 0;
   font-size: 1.5rem;
   transform: translateY(3rem);
@@ -66,6 +68,7 @@ body {
 
 /*************************************** indicator */
 .icon-indicator {
+  cursor: pointer;
   background-color: yellow;
   width: 5rem;
   height: 5rem;
@@ -74,4 +77,28 @@ body {
   left: 7.7rem;
   border-radius: 3rem;
   border: green 0.4rem solid;
+}
+
+.icon-indicator::before {
+  content: "";
+  background-color: transparent;
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  top: 2.1rem;
+  left: -1.7rem;
+  border-top-right-radius: 1rem;
+  box-shadow: 0rem -1rem green;
+}
+
+.icon-indicator::after {
+  content: "";
+  background-color: transparent;
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  top: 2.1rem;
+  right: -1.7rem;
+  border-top-left-radius: 1rem;
+  box-shadow: 0rem -1rem green;
 }
