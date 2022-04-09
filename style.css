@@ -104,3 +104,27 @@ body {
 }
 
 /*************************************** moving indicator */
+.move-indicator-1 {
+  transform: translateX(calc(70px * 0));
+  transition: 5s;
+}
+
+.move-indicator-2 {
+  transform: translateX(calc(70px * 1.4));
+  transition: 1s;
+}
+
+.move-indicator-3 {
+  transform: translateX(calc(70px * 3.2));
+  transition: 1s;
+}
+
+.move-indicator-4 {
+  transform: translateX(calc(70px * 5));
+  transition: 1s;
+}
+
+.move-indicator-5 {
+  transform: translateX(calc(70px * 6.6));
+  transition: 1s;
+}
