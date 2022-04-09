@@ -58,24 +58,3 @@ $("document").ready(function () {
     }
   });
 });
-
-/* JS only (longer) :
-    document.addEventListener("DOMContentLoaded", function () {
-    // gets link containers
-    const link = document.querySelectorAll(".link-container");
-
-    // toggles w/ active class selector
-    function activatedLink() {
-        link.forEach((singleItem) => {
-        singleItem.classList.remove("active");
-        this.classList.add("active");
-        console.log(link);
-        });
-    }
-
-    // applies func to each link when clicked
-    link.forEach((singleItem) => {
-        singleItem.addEventListener("click", activatedLink);
-    });
-});
-*/
