@@ -7,6 +7,8 @@ This is a navigation bar that uses css animation for the user to select the opti
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [jQuery](https://jquery.com/)
+- [Google Fonts](https://fonts.google.com/)
+- [Font Awesome](https://fontawesome.com/)
 
 # Credits
 
