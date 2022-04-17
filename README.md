@@ -1,6 +1,6 @@
 # Navigation Bar
 
-This is a navigation bar that uses css animation for the user to select the option on the menu they wish to access. This project uses HTML5 to make the basic structure of the project. It also uses CSS3 to add the style and animation to the navigation bar. It also used jQuery to make the navigation bar interactive and move the indicator when an icon is clicked.
+This is a navigation bar that uses css animation for the user to select the option on the menu they wish to access. This project uses HTML5 to make the basic structure of the project. It also uses CSS3 to add the style and animation to the navigation bar. It also used jQuery to make the navigation bar interactive and move the indicator when an icon is clicked. The website also used Google Fonts to style the font used. It also used Font Awesome to provide the icons used on this website.
 
 # Technologies Used
 
